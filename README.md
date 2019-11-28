@@ -1,11 +1,10 @@
 # IndianElectionResults
 
-The election data from 2014, Indian Elelction were taken constituency wise and analysis done to figure out as how many constituencies 
-each political party won or lost. The data needs to be cleaned up before analysis can be done. 
+Project Overview:The election data from 2014, Indian Elelction were taken constituency wise and analysis done to figure out as how many constituencies each political party won or lost.
 
-Project Overview:
+Sources: ECI.gov
 
-
+Project Outline / Task: 
 To manage ETL via python, pandas and SQL. 
 Extract / download data from public websites. 
 Load in SQL(create tables and load csv's). 
@@ -24,3 +23,4 @@ save the new data frame as csv
 Load
 Create Connection to the databse and confirm that the tables have created and populated with the data in the dataframe. 
 Analyze the data using SQL
+
