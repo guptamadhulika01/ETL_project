@@ -14,7 +14,6 @@ assign the data to csv
 Load
 Load the data to Pandas Dataframes
 
-
 Transform
 Clean the Data viz. rename columns, add new columns, remove columns, remove nulls, join various csv's as required. 
 Extarct the columns as required into a new data frame.
