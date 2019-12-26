@@ -199,3 +199,44 @@ SELECT a.constituency_name, a.state_name,
 	AND a.constituency_name = c.constituency_name);
 
 SELECT * FROM all_years;
+Queries run on all_results file to change the Political party names into their abbreviateion
+update all_results set winner_2019 = 'INC' where winner_2019 = 'Indian National Congress';
+update all_results set winner_2019 = 'BJP' where winner_2019 = 'Bharatiya Janata Party';
+update all_results set winner_2019 = 'TDP' where winner_2019 = 'Telugu Desam Party';
+update all_results set winner_2019 = 'DMK' where winner_2019 = 'Dravida Munnetra Kazhagam';
+update all_results set winner_2019 = 'BJD' where winner_2019 = 'Biju Janata Dal';
+update all_results set winner_2019 = 'IND' where winner_2019 = 'Independent';
+update all_results set winner_2019 = 'IND' where winner_2019 = 'Independent';
+update all_results set winner_2019 = 'SHS' where winner_2019 = 'Shiv Sena';
+update all_results set winner_2019 = 'YSRCP' where winner_2019 = 'YSR Congress Party';
+update all_results set winner_2019 = 'JD(U)' where winner_2019 = 'Janata Dal (United)';
+update all_results set winner_2019 = 'JD(U)' where winner_2019 = 'Janata Dal (United)';
+update all_results set winner_2019 = 'JMM' where winner_2019 = 'Jharkhand Mukti Morcha';
+update all_results set winner_2019 = 'LJP' where winner_2019 = 'Lok Janashakti Party';
+update all_results set winner_2019 = 'LJP' where winner_2019 = 'Lok Janshakti Party';
+update all_results set winner_2019 = 'AIMIM' where winner_2019 = 'All India Majlis-e-Ittehadul Muslimeen';
+update all_results set winner_2019 = 'AJSU' where winner_2019 = 'All Jharkhand Students Union';
+update all_results set winner_2019 = 'AJSU' where winner_2019 = 'All Jharkhand Students Union';
+update all_results set winner_2019 = 'JD(S)' where winner_2019 = 'Janata Dal (Secular)';
+update all_results set winner_2019 = 'IUML' where winner_2019 = 'Indian Union Muslim League';
+update all_results set winner_2019 = 'CPIM' where winner_2019 = 'Communist Party of India(Markist)';
+update all_results set winner_2019 = 'KC(M)' where winner_2019 = 'Kerala Congress (M)';
+update all_results set winner_2019 = 'TRS' where winner_2019 = 'Telangana Rashtra Samithi';
+update all_results set winner_2019 = 'RSP' where winner_2019 = 'Revolutionary Socialist Party';
+update all_results set winner_2019 = 'NCL' where winner_2019 = 'Nationalist Congress Party';
+update all_results set winner_2019 = 'NPP' where winner_2019 = 'National People's Party';
+update all_results set winner_2019 = 'cpi' where winner_2019 = 'Communist Party of India';
+update all_results set winner_2019 = 'NDPP' where winner_2019 = 'Nationalist Democratic Progressive Party';
+update all_results set winner_2019 = 'BSP' where winner_2019 = 'Bahujan Samaj Party';
+update all_results set winner_2019 = 'RLP' where winner_2019 = 'Rashtriya Loktantrik Party';
+update all_results set winner_2019 = 'RLP' where winner_2019 = 'Rashtriya Loktantrik Party';
+What to do with Vellore(elections got cancelled here)
+update all_results set winner_2019 = 'RLP' where winner_2019 = 'Rashtriya Loktantrik Party';
+update all_results set winner_2019 = 'RLP' where winner_2019 = 'Rashtriya Loktantrik Party';
+update all_results set winner_2019 = 'SP' where winner_2019 = 'Samajwadi Party';
+update all_results set winner_2019 = 'VCK' where winner_2019 = 'Viduthalai Chiruthaigal Katchi';
+update all_results set winner_2019 = 'AITC' where winner_2019 = 'All India Trinamool Congress';
+update all_results set winner_2019 = 'AIDMK' where winner_2019 = 'All India Anna Dravida Munnetra Kazhagam';
+update all_results set winner_2019 = 'AIDMK' where winner_2019 = 'All India Anna Dravida Munnetra Kazhagam';
+update all_results set winner_2019 = 'ADS' where winner_2019 = 'Apna Dal (Sonelal)';
+
